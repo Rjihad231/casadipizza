@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updatedstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/logo.png" alt="Logo">
+            <h6>Fresh & Authentic Italian Taste</h6>
+        </div>
+        <div class="nav-and-lang">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Pizza</a></li>
+                    <li><a href="#">Sandwiches</a></li>
+                    <li><a href="#">Drinks</a></li>
+                </ul>
+            </nav>
+            <div class="language">
+                <img src="Images/material-symbols_language.png" alt="language">
+                <select onchange="setLanguage(this.value)" name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                    <option value="ku">کوردی</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main class="menu">
+
+        <!-- 🍕 Pizza 1 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_1.png" alt="Pizza">
+                <div class="badge">1</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza1_title">Veggie Pizza</h2>
+                <p data-key="pizza1_desc">Fresh dough, rich tomato sauce, melted cheese.</p>
+                <strong data-key="pizza1_price">20,000 IQD</strong>
+            </div>
+        </div>
+
+        <!-- 🍕 Pizza 2 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_2.png" alt="Pizza">
+                <div class="badge">2</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza2_title">Pepperoni Pizza</h2>
+                <p data-key="pizza2_desc">Spicy pepperoni, mozzarella, and our signature tomato sauce.</p>
+                <strong data-key="pizza2_price">25,000 IQD</strong>
+            </div>
+        </div>
+
+        <!-- 🍕 Pizza 3 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_3.png" alt="Pizza">
+                <div class="badge">3</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza3_title">Margherita Pizza</h2>
+                <p data-key="pizza3_desc">Classic Margherita with fresh basil and mozzarella.</p>
+                <strong data-key="pizza3_price">22,000 IQD</strong>
+            </div>
+        </div>
+
+        <!-- 🍕 Pizza 4 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_4.png" alt="Pizza">
+                <div class="badge">4</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza4_title">Classic Pizza</h2>
+                <p data-key="pizza4_desc">Classic Margherita with fresh basil and mozzarella.</p>
+                <strong data-key="pizza4_price">15,000 IQD</strong>
+            </div>
+        </div>
+
+        <!-- 🍕 Pizza 5 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_5.png" alt="Pizza">
+                <div class="badge">5</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza5_title">Four Cheese Pizza</h2>
+                <p data-key="pizza5_desc">Four types of cheese with fresh basil and mozzarella.</p>
+                <strong data-key="pizza5_price">18,000 IQD</strong>
+            </div>
+        </div>
+
+        <!-- 🍕 Pizza 6 -->
+        <div class="card">
+            <div class="image-wrapper">
+                <img src="Images/Pizza/Pizza_6.png" alt="Pizza">
+                <div class="badge">6</div>
+            </div>
+
+            <div class="content">
+                <h2 data-key="pizza6_title">BBQ Chicken Pizza</h2>
+                <p data-key="pizza6_desc">BBQ sauce, chicken, mozzarella, and fresh basil.</p>
+                <strong data-key="pizza6_price">24,000 IQD</strong>
+            </div>
+        </div>
+
+    </main>
+    <script src="jscode.js"></script>
+    <footer>
+        <p>Copyright &copy; 2026 Menu</p>
+    </footer>
+</body>
+
+</html>
